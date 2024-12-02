@@ -199,7 +199,7 @@ async function updatePost(event, postId) {
 
   // ensure that inputs are not empty
   if (!title || !content) {
-    alert('fill in all fields 2.');
+    alert('Please fill in all fields 2.');
     return;
   }
 
